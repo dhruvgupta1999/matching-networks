@@ -13,8 +13,8 @@ from tqdm import tqdm
 
 def read_omniglot():
     """Read omniglot dataset, save them to a single npy file"""
-    omniglot_train = '/home/one-shot-dataset/omniglot/python/images_background' 
-    omniglot_eval = '/home/one-shot-dataset/omniglot/python/images_evaluation' 
+    omniglot_train = 'omniglot-master/python/images_background' 
+    omniglot_eval = 'omniglot-master/python/images_evaluation' 
     
     data = []
     for r in [omniglot_train, omniglot_eval]:
